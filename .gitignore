@@ -1,7 +1,12 @@
-restore/
+coverage
 
-temp/
+tmp
 
+# VSCode Config Files
+.vscode/
+
+# Hidden files
 .*
 
+# Except .gitignore
 !.gitignore
