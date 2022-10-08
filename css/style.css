@@ -87,12 +87,23 @@ header p {
   columns: 2;
 }
 
+.secondSection {
+  background: #333;
+}
+
+.secondSectionWrapper {
+  text-align: center;
+  color: #000;
+}
+
 .middleBox,
 .leftBox,
 .rightBox {
-  width: 30%;
+  width: 25%;
+  display: inline-grid;
+  background: #fff;
 }
 
 .picture {
-  width: inherit;
+  width: 100%;
 }
