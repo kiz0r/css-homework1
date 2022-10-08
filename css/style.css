@@ -7,6 +7,7 @@ html {
 
 * {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -17,17 +18,54 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 header {
   background: url(./../img/background.png) no-repeat center top / cover;
+  height: 500px;
+  text-align: center;
 }
 
 .wrapper {
-  width: 70%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
+}
+
+header p {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+.greeting {
+  font-weight: 700;
+  padding-top: 100px;
+  font-size: 35px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.readMore {
+  text-align: center;
+  color: #fff;
+  width: 160px;
+  height: 65px;
+  padding: 15px 35px;
+  font-size: 18px;
+  border: 1px solid #666;
+  background: #333;
+  text-decoration: none;
+}
+
+.readMore:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
 }
 
 .middleBox,
