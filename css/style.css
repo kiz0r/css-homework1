@@ -15,9 +15,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
+}
+
+p {
+  font-size: 17px;
 }
 
 a:visited {
@@ -38,7 +43,6 @@ header {
 
 header p {
   color: #fff;
-  font-size: 17px;
   margin-bottom: 50px;
 }
 
@@ -66,6 +70,21 @@ header p {
   border: 1px solid #fff;
   background: #fff;
   color: #000;
+}
+
+.firstSection {
+  text-align: center;
+  height: 200px;
+  background: #fff;
+}
+
+.firstSection h2 {
+  padding: 20px 0px;
+  font-size: 26px;
+}
+
+.sectionText {
+  columns: 2;
 }
 
 .middleBox,
