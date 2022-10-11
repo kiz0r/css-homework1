@@ -22,7 +22,7 @@ p {
 }
 
 p {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 a:visited {
@@ -31,8 +31,8 @@ a:visited {
 
 header {
   background: url(./../img/background.png) no-repeat center top / cover;
-  height: 500px;
   text-align: center;
+  padding-bottom: 150px;
 }
 
 .wrapper {
@@ -89,6 +89,8 @@ header p {
 
 .secondSection {
   background: #333;
+  padding-top: 50px;
+  padding-bottom: 75px;
 }
 
 .secondSectionWrapper {
@@ -96,14 +98,28 @@ header p {
   color: #000;
 }
 
+.secondSectionWrapper h3 {
+  padding: 20px 0;
+}
+
+.secondSectionWrapper p {
+  text-align: center;
+}
+
 .middleBox,
 .leftBox,
 .rightBox {
-  width: 25%;
+  width: 29%;
   display: inline-grid;
   background: #fff;
+  margin-left: 30px;
+  padding-bottom: 60px;
 }
 
 .picture {
   width: 100%;
+}
+
+.miniWrapper {
+  padding: 0px 20px;
 }
