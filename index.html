@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Acme Web Solutions</title>
+    <title>CSS Grid Responsive Site</title>
   </head>
   <body>
     <header>
@@ -96,7 +96,7 @@
         </div>
       </section>
       <section class="fourthSection">
-        <div class="box">
+        <div class="box left">
           <h2>Contact Us</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
@@ -106,7 +106,7 @@
             contact@acmewebsolutions.test
           </a>
         </div>
-        <div class="box">
+        <div class="box right">
           <h2>About Our Company</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -117,11 +117,19 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="leftBox">Acme Web Solutions</div>
-      <div class="rightBox">
-        Project By
-        <a href="https://traversymedia.com/" target="_blank">Traversy Media</a>
+    <footer class="footer">
+      <div class="companyName">Acme Web Solutions</div>
+      <div class="authors">
+        <span>
+          Project By
+          <a
+            href="https://traversymedia.com/"
+            target="_blank"
+            class="authorLink"
+          >
+            Traversy Media
+          </a>
+        </span>
       </div>
     </footer>
   </body>

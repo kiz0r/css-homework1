@@ -25,6 +25,10 @@ p {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:visited {
   text-decoration: none;
 }
@@ -113,7 +117,7 @@ header p {
   display: inline-grid;
   background: #fff;
   margin-left: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .picture {
@@ -122,4 +126,58 @@ header p {
 
 .miniWrapper {
   padding: 0px 20px;
+  margin-bottom: 30px;
+}
+
+.thirdSection {
+  text-align: center;
+}
+
+.thirdSection h2 {
+  padding: 50px 0px;
+}
+
+.thirdSection p {
+  padding-bottom: 50px;
+}
+
+.fourthSection {
+}
+
+.box {
+}
+
+.left {
+  background: #2690d4;
+}
+
+.right {
+  background: #333;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 2em;
+  font-size: 18px;
+}
+
+.companyName,
+.authors {
+  display: inline-grid;
+  width: 48%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.companyName {
+  margin-right: auto;
+}
+
+.authors {
+  margin-left: auto;
+}
+
+.authorLink {
+  color: #2690d4;
 }
